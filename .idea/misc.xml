@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/background.xml" value="0.2" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/background_bottom.xml" value="0.2" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/background_orang.xml" value="0.14351851851851852" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/button_1.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/button_2.xml" value="0.2" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/button_3.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/button_4.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/ic_backsvg.xml" value="0.15092592592592594" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/ic_dollar.xml" value="0.2128205128205128" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/ic_paypal.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/ic_question.xml" value="0.10625" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/ic_share.xml" value="0.2128205128205128" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/ic_slanted_gradient.xml" value="0.15092592592592594" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/ic_svgbck.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/ic_timer.xml" value="0.10625" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/ic_trophy.xml" value="0.2128205128205128" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/option_right.xml" value="0.2128205128205128" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/option_unselected.xml" value="0.2128205128205128" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/option_wrong.xml" value="0.2128205128205128" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/radialbackground.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/roundedbox.xml" value="0.2" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/submit_btn.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/textbox.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_quiz.xml" value="0.22" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_result.xml" value="0.22" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_spinner.xml" value="0.22" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/fragment_home.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/fragment_leaderboards.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/fragment_wallet.xml" value="0.22" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/item_category.xml" value="0.2073732718894009" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/lucky_wheel_layout.xml" value="0.19692307692307692" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/row_leaderboards.xml" value="0.22" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/menu/bottom_menu.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/menu/home_manu.xml" value="0.1" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/menu/menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
