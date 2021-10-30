@@ -48,34 +48,27 @@ public class QuizActivity extends AppCompatActivity {
             .collection("questions")
             .whereGreaterThanOrEqualTo("index", rand)
             .orderBy("index")
-            .limit(5).get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-        @Override
-        public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
-        if(queryDocumentSnapshots.getDocuments().size() < 5){
-            database.collection("categories")
-                    .document(catId)
-                    .collection("questions")
-                    .whereLessThanOrEqualTo("index", rand)
-                    .orderBy("index")
-                    .limit(5).get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-                @Override
-                public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
-                            for(DocumentSnapshot snapshot : queryDocumentSnapshots){
-                            Question question = snapshot.toObject(Question.class);
-                            questions.add(question);
-                        }
-                    setNextQuestion();
-                    }
-
-            });
-        } else {
-            for(DocumentSnapshot snapshot : queryDocumentSnapshots){
-                Question question = snapshot.toObject(Question.class);
-                questions.add(question);
+            .limit(5).get().addOnSuccessListener(queryDocumentSnapshots -> {
+            if(queryDocumentSnapshots.getDocuments().size() < 5){
+                database.collection("categories")
+                        .document(catId)
+                        .collection("questions")
+                        .whereLessThanOrEqualTo("index", rand)
+                        .orderBy("index")
+                        .limit(5).get().addOnSuccessListener(queryDocumentSnapshots1 -> {
+                                    for(DocumentSnapshot snapshot : queryDocumentSnapshots1){
+                                    Question question = snapshot.toObject(Question.class);
+                                    questions.add(question);
+                                }
+                            setNextQuestion();
+                            });
+            } else {
+                for(DocumentSnapshot snapshot : queryDocumentSnapshots){
+                    Question question = snapshot.toObject(Question.class);
+                    questions.add(question);
+                }
             }
-        }
-        }
-    });
+            });
 
 
     resetTimer();
@@ -93,7 +86,7 @@ public class QuizActivity extends AppCompatActivity {
 
             @Override
             public void onFinish() {
-
+                // TODO document why this method is empty
             }
         };
     }
