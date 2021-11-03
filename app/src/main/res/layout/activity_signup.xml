@@ -135,6 +135,7 @@
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_2"
                 android:text="already have an account?"
+                android:textColor="@color/color_white"
                 app:backgroundTint="@null" />
 
             <TextView

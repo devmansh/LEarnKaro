@@ -110,6 +110,7 @@
                     android:layout_marginRight="10dp"
                     android:background="@drawable/submit_btn"
                     android:text="Login"
+                    android:textColor="@color/color_white"
                     app:backgroundTint="@null" />
 
                 <Button

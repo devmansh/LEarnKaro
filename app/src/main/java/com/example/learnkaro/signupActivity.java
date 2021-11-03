@@ -50,7 +50,23 @@ public class signupActivity extends AppCompatActivity {
                 final User user = new User(name, email, pass,referCode);
 
                 dialog.show();
-                
+
+
+                 if (name.isEmpty()){
+                    binding.nameBox.setError("Required");
+                    binding.nameBox.requestFocus();
+                    dialog.hide();
+                }else if(email.isEmpty()){
+                    binding.emailBox.setError("Required");
+                    binding.emailBox.requestFocus();
+                    dialog.hide();
+                }else if (pass.isEmpty()){
+                    binding.passwordBox.setError("required");
+                    binding.passwordBox.requestFocus();
+                    dialog.hide();
+                }
+                else {
+
                 auth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
@@ -83,7 +99,7 @@ public class signupActivity extends AppCompatActivity {
                     }
                 });
                 
-            }
+            }}
         });
 
         binding.loginBtn.setOnClickListener(new View.OnClickListener() {
