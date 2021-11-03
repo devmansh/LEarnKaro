@@ -2,6 +2,7 @@ package com.example.learnkaro;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.annotation.VisibleForTesting;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -12,6 +13,12 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.example.learnkaro.databinding.ActivityMainBinding;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -31,6 +38,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        MobileAds.initialize(this, initializationStatus -> {
+
+        });
+
+        AdRequest adRequest = new AdRequest.Builder().build();
+        binding.adView.loadAd(adRequest);
+
+        binding.adView.setAdListener(new AdListener() {
+            @Override
+            public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                super.onAdFailedToLoad(loadAdError);
+                binding.adView.loadAd(adRequest);
+            }
+        });
 
         //setSupportActionBar(binding.toolbar);
 

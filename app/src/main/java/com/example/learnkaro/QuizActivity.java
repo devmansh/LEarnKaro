@@ -1,5 +1,6 @@
 package com.example.learnkaro;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -10,6 +11,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.learnkaro.databinding.ActivityQuizBinding;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -34,6 +38,36 @@ public class QuizActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityQuizBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+    AdRequest adRequest = new AdRequest.Builder().build();
+    binding.adView2.loadAd(adRequest);
+
+    binding.adView2.setAdListener(new AdListener() {
+        @Override
+        public void onAdLoaded() {
+            super.onAdLoaded();
+            //any logics can be applied
+            Toast.makeText(QuizActivity.this, "Ad is loaded", Toast.LENGTH_SHORT).show();
+        }
+
+        @Override
+        public void onAdOpened() {
+            super.onAdOpened();
+            Toast.makeText(QuizActivity.this, "Ad is opened", Toast.LENGTH_SHORT).show();
+        }
+
+        @Override
+        public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+            super.onAdFailedToLoad(loadAdError);
+            binding.adView2.loadAd(adRequest);
+        }
+
+        @Override
+        public void onAdClicked() {
+            super.onAdClicked();
+        }
+    });
+
 
     questions = new ArrayList<>();
     database = FirebaseFirestore.getInstance();
