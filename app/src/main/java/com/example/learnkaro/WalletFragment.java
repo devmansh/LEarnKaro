@@ -65,9 +65,9 @@ public class WalletFragment extends Fragment {
                 if (user.getCoins() > 35000) {
                     String uid = FirebaseAuth.getInstance().getUid();
                     String payPal = binding.emailBox.getText().toString();
-                    //String paytm = binding.paytmphone.getText().toString();
+                    String paytm = binding.paytmphone.getText().toString();
 
-                    if (payPal.isEmpty()){
+                    if (payPal.isEmpty() && paytm.isEmpty()){
                         //binding.emailBox.setError("Required");
                         //binding.emailBox.requestFocus();
                         Snackbar snackbar = Snackbar.make(
