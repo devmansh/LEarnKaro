@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.example.learnkaro.databinding.FragmentWalletBinding;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -60,19 +61,42 @@ public class WalletFragment extends Fragment {
         binding.sendRequest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (user.getCoins() > 35000){
+
+                if (user.getCoins() > 35000) {
                     String uid = FirebaseAuth.getInstance().getUid();
                     String payPal = binding.emailBox.getText().toString();
-                    withdrawRequest request = new withdrawRequest(uid, payPal,user.getName());
+                    //String paytm = binding.paytmphone.getText().toString();
+
+                    if (payPal.isEmpty()){
+                        //binding.emailBox.setError("Required");
+                        //binding.emailBox.requestFocus();
+                        Snackbar snackbar = Snackbar.make(
+                                view,
+                                "Error !! Please provide either PayPal Email OR Paytm Number",
+                                Snackbar.LENGTH_INDEFINITE);
+
+                        snackbar.setAction(
+                                "OK",
+
+                                // If the Undo button
+                                // is pressed, show
+                                // the message using Toast
+                                view1 -> snackbar.dismiss());
+
+                        snackbar.show();
+                    }
+
+                    else {
+                        withdrawRequest request = new withdrawRequest(uid, payPal, user.getName());
                     database.collection("withdraws")
                             .document(uid)
                             .set(request).addOnSuccessListener(new OnSuccessListener<Void>() {
                         @Override
                         public void onSuccess(Void unused) {
-                            Toast.makeText(getContext(),"Request Sent successfully", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getContext(), "Request Sent successfully", Toast.LENGTH_SHORT).show();
                         }
                     });
-
+                }
                 } else {
                     Toast.makeText(getContext(), "You need more points to get withdraw.", Toast.LENGTH_SHORT).show();
                 }

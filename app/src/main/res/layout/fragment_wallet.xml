@@ -67,11 +67,12 @@
         app:layout_constraintStart_toStartOf="@+id/currentCoins"
         app:layout_constraintTop_toBottomOf="@+id/currentCoins" />
 
+
     <EditText
         android:id="@+id/emailBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/textbox"
         android:drawableLeft="@drawable/ic_paypal"
         android:drawablePadding="10dp"
@@ -80,23 +81,24 @@
         android:inputType="textPersonName"
         android:padding="15dp"
         app:layout_constraintEnd_toEndOf="@+id/view6"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view6"
         app:layout_constraintTop_toBottomOf="@+id/view6" />
 
-
     <EditText
-        android:id="@+id/PaytmemailBox"
+        android:id="@+id/paytmphone"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/textbox"
         android:drawableLeft="@drawable/ic_paypal"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:hint="Paytm Number"
-        android:inputType="textPersonName"
+        android:hint="Paytm Mobile Number"
+        android:inputType="phone"
         android:padding="15dp"
         app:layout_constraintEnd_toEndOf="@+id/view6"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view6"
         app:layout_constraintTop_toBottomOf="@+id/emailBox" />
 
@@ -112,7 +114,7 @@
         android:textColor="@color/color_white"
         app:layout_constraintEnd_toEndOf="@+id/emailBox"
         app:layout_constraintStart_toStartOf="@+id/emailBox"
-        app:layout_constraintTop_toBottomOf="@+id/PaytmemailBox" />
+        app:layout_constraintTop_toBottomOf="@+id/paytmphone" />
 
     <TextView
         android:id="@+id/textView10"
