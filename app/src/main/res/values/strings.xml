@@ -5,4 +5,7 @@
     <string name="update_profile">Update Profile</string>
     <string name="enter_your_email">Enter your Email</string>
     <string name="send_link">Send Link</string>
+    <string name="current_coins">Current Coins</string>
+    <string name="paypal_email_address">Paypal Email Address</string>
+    <string name="send_request">Send Request</string>
 </resources>

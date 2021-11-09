@@ -7,3 +7,5 @@ s
 Capp/src/main/java/com/example/learnkaro/ForgetPasswordActivity.java,6\7\676739d0dd056300eb9f68f8413de23172bf05cf
 k
 ;app/src/main/java/com/example/learnkaro/signupActivity.java,6\d\6da2a72e2266b621d18a15af57977fa33d2defec
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
