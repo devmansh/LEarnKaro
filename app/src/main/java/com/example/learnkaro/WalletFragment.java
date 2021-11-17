@@ -62,7 +62,7 @@ public class WalletFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
-                if (user.getCoins() > 35000) {
+                if (user.getCoins() > 1000) {
                     String uid = FirebaseAuth.getInstance().getUid();
                     String payPal = binding.emailBox.getText().toString();
                     String paytm = binding.paytmphone.getText().toString();
