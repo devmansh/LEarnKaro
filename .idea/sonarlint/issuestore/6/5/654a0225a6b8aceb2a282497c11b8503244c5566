@@ -1,0 +1,7 @@
+
+•
+java:S5803."zRemove this usage of "AdRequest", it is annotated with @VisibleForTesting and should not be accessed from production code.(ð¸Ÿ—ÿÿÿÿÿ
+V	java:S1259"<This block of commented-out lines of code should be removed.(—ÔÌ ùÿÿÿÿ
+6	java:S131C""Add a default case to this switch.(ìúÇV
+C
+java:S1604?"(Make this anonymous inner class a lambda(çÑðéüÿÿÿÿ

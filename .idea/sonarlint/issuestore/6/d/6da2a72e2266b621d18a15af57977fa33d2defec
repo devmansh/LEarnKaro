@@ -1,0 +1,20 @@
+
+Q
+java:S1874"6Remove this use of "ProgressDialog"; it is deprecated.(¡æÓÂüÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¨Œşÿÿÿÿ
+L
+java:S1874$"6Remove this use of "ProgressDialog"; it is deprecated.(†ÀÍ™
+M
+java:S1874%"2Remove this use of "setMessage"; it is deprecated.(ÀÔ’ÿÿÿÿÿ
+\
+java:S1659*"ADeclare "pass" and all following declarations on a separate line.(¯ñ¢¥ùÿÿÿÿ
+>
+java:S1604O"(Make this anonymous inner class a lambda(±‘á°
+C
+java:S1604F"(Make this anonymous inner class a lambda(€àºçùÿÿÿÿ
+>
+java:S1604'"(Make this anonymous inner class a lambda(¨«ÿ»
+C
+java:S1604i"(Make this anonymous inner class a lambda(“ŒõÓüÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³ëèïúÿÿÿÿ
