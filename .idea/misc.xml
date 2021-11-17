@@ -29,16 +29,17 @@
         <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/roundedbox.xml" value="0.2" />
         <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/submit_btn.xml" value="0.1537037037037037" />
         <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/drawable/textbox.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_forget_password.xml" value="0.1578125" />
         <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_quiz.xml" value="0.22" />
-        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_result.xml" value="0.22" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_quiz.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_result.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_signup.xml" value="0.22" />
         <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/activity_spinner.xml" value="0.22" />
         <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/fragment_leaderboards.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
-        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/fragment_wallet.xml" value="0.22" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/fragment_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/fragment_wallet.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/item_category.xml" value="0.2073732718894009" />
         <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/lucky_wheel_layout.xml" value="0.19692307692307692" />
         <entry key="..\:/Users/thema/AndroidStudioProjects/LEarnKaro/app/src/main/res/layout/row_leaderboards.xml" value="0.22" />

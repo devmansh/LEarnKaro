@@ -104,7 +104,7 @@
         android:paddingStart="20dp"
         android:paddingLeft="10dp"
         android:paddingRight="40dp"
-        android:text="Logout"
+        android:text="@string/update_profile"
         android:textColor="@color/color_white"
         app:layout_constraintEnd_toStartOf="@+id/button_logout"
         app:layout_constraintStart_toStartOf="@+id/passBox"
