@@ -2,7 +2,10 @@ package com.example.learnkaro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 import com.example.learnkaro.databinding.ActivityResultBinding;
 import com.google.firebase.auth.FirebaseAuth;
@@ -34,5 +37,10 @@ public class ResultActivity extends AppCompatActivity {
                 .document(FirebaseAuth.getInstance().getUid())
                 .update("coins", FieldValue.increment(points));
 
+    }
+
+    public void onClick(View view) {
+        startActivity(new Intent(ResultActivity.this, QuizActivity.class));
+        Toast.makeText(this, "Button clicked", Toast.LENGTH_SHORT).show();
     }
 }

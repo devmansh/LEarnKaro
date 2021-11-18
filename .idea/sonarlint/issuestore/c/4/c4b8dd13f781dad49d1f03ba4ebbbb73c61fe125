@@ -1,9 +1,0 @@
-
->
-java:S1185 "(Remove this method to simply inherit it.(ßìê¯
-H
-java:S1128"3Remove this unused import 'android.content.Intent'.(³ð‹G
-C
-java:S16046"(Make this anonymous inner class a lambda(›ÀÞ¡üÿÿÿÿ
-^
-java:S2259:"CA "NullPointerException" could be thrown; "value" is nullable here.(ØéÑ¹ûÿÿÿÿ

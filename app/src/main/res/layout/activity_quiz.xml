@@ -206,6 +206,7 @@
         android:layout_marginEnd="32dp"
         android:background="@drawable/button_1"
         android:text="Quit"
+        android:onClick="onClick"
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
