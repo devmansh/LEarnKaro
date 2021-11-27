@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.example.learnkaro.databinding.FragmentHomeBinding;
 import com.google.firebase.firestore.DocumentSnapshot;
@@ -17,6 +18,8 @@ import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.firestore.QuerySnapshot;
+
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
@@ -67,6 +70,19 @@ public class HomeFragment extends Fragment {
         binding.CategoryList.setLayoutManager(new GridLayoutManager(getContext(),2));
         binding.CategoryList.setAdapter(adapter);
 
+        binding.spinwheel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext(), SpinActivity.class));
+            }
+        });
+
+        binding.invitefriends.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
 
 
