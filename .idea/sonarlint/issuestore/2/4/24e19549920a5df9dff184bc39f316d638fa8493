@@ -1,0 +1,13 @@
+
+>
+java:S1185"(Remove this method to simply inherit it.(ßìê¯
+P	java:S1259"<This block of commented-out lines of code should be removed.(Õ Ô
+V	java:S125G"<This block of commented-out lines of code should be removed.(Õ«õÁıÿÿÿÿ
+ˆ
+java:S3252L"mUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_INDEFINITE".(•¹È•şÿÿÿÿ
+C
+java:S16042"(Make this anonymous inner class a lambda(ÛØÎ‰ÿÿÿÿÿ
+C
+java:S1604]"(Make this anonymous inner class a lambda(ÖÉ›£øÿÿÿÿ
+>
+java:S1604="(Make this anonymous inner class a lambda(›ÓäÊ
