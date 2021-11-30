@@ -1,10 +1,9 @@
 package com.example.learnkaro;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.learnkaro.databinding.ActivitySpinBinding;
 
@@ -18,19 +17,9 @@ public class SpinActivity extends AppCompatActivity {
         binding = ActivitySpinBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.Spin2Home.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(SpinActivity.this, HomeFragment.class));
-            }
-        });
+        binding.Spin2Home.setOnClickListener(view -> startActivity(new Intent(SpinActivity.this, HomeFragment.class)));
 
-        binding.Spin2Wallet.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(SpinActivity.this, WalletFragment.class));
-            }
-        });
+        binding.Spin2Wallet.setOnClickListener(view -> startActivity(new Intent(SpinActivity.this, WalletFragment.class)));
     }
 
 

@@ -16,6 +16,4 @@ P
 i
 9app/src/main/java/com/example/learnkaro/QuizActivity.java,7\0\70c37772b822fa34291e9976fb86b2f314a5e958
 i
-9app/src/main/java/com/example/learnkaro/SpinActivity.java,e\e\ee2c90d93cadebf832b13d49d5db7a7d46fe1082
-i
 9app/src/main/java/com/example/learnkaro/InviteFriend.java,0\e\0e4de1321f338362fe8c21de2a04cbba1278b4c5

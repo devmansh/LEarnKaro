@@ -70,20 +70,9 @@ public class HomeFragment extends Fragment {
         binding.CategoryList.setLayoutManager(new GridLayoutManager(getContext(),2));
         binding.CategoryList.setAdapter(adapter);
 
-        binding.spinwheel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getContext(), SpinActivity.class));
-            }
-        });
+        binding.spinwheel.setOnClickListener(view -> startActivity(new Intent(getContext(), SpinActivity.class)));
 
-        binding.invitefriends.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getContext(), InviteFriend.class));
-
-            }
-        });
+        binding.invitefriends.setOnClickListener(view -> startActivity(new Intent(getContext(), InviteFriend.class)));
 
 
 
