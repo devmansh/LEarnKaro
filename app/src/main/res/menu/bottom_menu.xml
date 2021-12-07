@@ -20,4 +20,9 @@
         android:title="Wallet"
         android:icon="@drawable/wallet"/>
 
+    <item
+        android:id="@+id/SpinWheel"
+        android:title="Spin"
+        android:icon="@drawable/spin_stand"/>
+
 </menu>
