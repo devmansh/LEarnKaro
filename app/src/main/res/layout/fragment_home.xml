@@ -20,9 +20,9 @@
         android:id="@+id/view3"
         android:layout_width="0dp"
         android:layout_height="150dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="12dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="24dp"
         android:background="@drawable/roundedbox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -133,14 +133,25 @@
         app:layout_constraintStart_toEndOf="@+id/spinwheel"
         app:layout_constraintTop_toBottomOf="@+id/view3" />
 
-    <ImageView
-        android:id="@+id/videoad"
-        android:layout_width="wrap_content"
-        android:layout_height="150dp"
+    <View
+        android:id="@+id/adview"
+        android:layout_width="270dp"
+        android:layout_height="140dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/background_orang"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinwheel"
+        app:layout_constraintTop_toBottomOf="@+id/spinwheel" />
+
+    <ImageView
+        android:id="@+id/videoad"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toBottomOf="@+id/adview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/adview"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/watchvideos" />
 
     <androidx.recyclerview.widget.RecyclerView
@@ -153,7 +164,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/videoad">
+        app:layout_constraintTop_toBottomOf="@+id/adview">
 
     </androidx.recyclerview.widget.RecyclerView>
 

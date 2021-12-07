@@ -17,3 +17,9 @@ i
 9app/src/main/java/com/example/learnkaro/QuizActivity.java,7\0\70c37772b822fa34291e9976fb86b2f314a5e958
 i
 9app/src/main/java/com/example/learnkaro/InviteFriend.java,0\e\0e4de1321f338362fe8c21de2a04cbba1278b4c5
+k
+;app/src/main/java/com/example/learnkaro/signupActivity.java,6\d\6da2a72e2266b621d18a15af57977fa33d2defec
+i
+9app/src/main/java/com/example/learnkaro/MainActivity.java,6\5\654a0225a6b8aceb2a282497c11b8503244c5566
+i
+9app/src/main/java/com/example/learnkaro/SpinActivity.java,e\e\ee2c90d93cadebf832b13d49d5db7a7d46fe1082
