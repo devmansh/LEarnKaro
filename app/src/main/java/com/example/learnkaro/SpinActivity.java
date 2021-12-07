@@ -17,10 +17,7 @@ public class SpinActivity extends AppCompatActivity {
         binding = ActivitySpinBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.Spin2Home.setOnClickListener(view -> startActivity(new Intent(SpinActivity.this, HomeFragment.class)));
-
-        binding.Spin2Wallet.setOnClickListener(view -> startActivity(new Intent(SpinActivity.this, WalletFragment.class)));
-    }
+        }
 
 
 

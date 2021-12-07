@@ -81,6 +81,10 @@ public class MainActivity extends AppCompatActivity {
                         transaction.replace(R.id.content, new WalletFragment());
                         transaction.commit();
                         break;
+                    case 4:
+                        transaction.replace(R.id.content, new SpinFragment());
+                        transaction.commit();
+                        break;
 
                 }
                 return false;
