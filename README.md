@@ -1,11 +1,11 @@
 # LearnKaro
 
 
-## 📸 Features
+## 📸 Mockup
 
 ![](screenshots/home.png)
 
-![](screenshots/lkmockup.gif)
+![](screenshots/LKMOCKUP.gif)
 
   
 ## Contact
